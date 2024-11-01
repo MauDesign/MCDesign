@@ -2,10 +2,10 @@
     <x-guest-layout>
     <header>
     <div class="container-xxl flex-grow-1 container-p-y" style="display:flex; padding-bottom:3rem;">
-        <div class="row g-6">
-            <div class="hero-text-box text-center col-md-6">
-                <h1 class="text-primary " style="font-family:var(--bs-title-font-family);">Hola Soy Mauricio  UX/UI Designer</h1>
-                <p class="h6 mb-4 pb-1 lh-lg">
+        <div class="row g-6" >
+            <div class="hero-text-box text-center col-md-6" >
+                <h1 class="text-primary titulo"><span style="color:white">Hola</span> Soy Mauricio <br> <span style="color:white">UX/UI Designer</span></h1>
+                <p class="h6 mb-4 pb-1 lh-lg" style="color:white;">
                 Como diseñador apasionado de la tecnología, me enfoco en utilizar las últimas herramientas y tecnologías para crear soluciones a la medida de cada reto. Desde el punto de vista mercadológico, de diseño de experiencias y de desarrollo, ataco tus necesidades para brindarte una propuesta de alto impacto que te ayude a destacar en línea y digitalizar processos.
                 </p>
                 <a href="#landingPricing" class="btn btn-primary">Conoce más</a>
@@ -38,8 +38,7 @@
 <section class="section-py servicios " style="background:conic-gradient(from -61deg at 64.09% 50%, #FF945B 42.28158384561539deg, #5894D6 110.08992791175842deg, #4DD7AF 243.98332357406616deg);" id="servicios">
     <div class="container" >
     <h1 class="titulo" style="color:#334b5f">Servicios</h1>
-        <div class="row"> 
-        
+        <div class="row">
             <div class="col-lg" >
                 <div class="card " >
                     <img class="card-img-top" src="assets/img/services/UX-UIdesign_MC.png" style="padding:2rem;">
@@ -80,7 +79,7 @@
 </section>
 <section class="section-py  portfolio container" id="proyectos">
     <div class="container">
-    <h1 class="titulo" style="color:#334b5f">Proyectos</h1>
+    <h1 class="titulo" >Proyectos</h1>
         <div class=" col " style="display:flex;">
             <div class="panel active" style="background-image: url(assets/img/proyect/Aquadrada_MC.jpg);">
                 <a href="desarrollo-web.php" class="btn btn-primary">Desarrollo de Software a la medida.</a>

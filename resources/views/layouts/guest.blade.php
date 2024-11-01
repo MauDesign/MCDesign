@@ -27,7 +27,7 @@
     <body class="font-sans text-gray-900 antialiased">
         <div class="layout-wrapper layout-content-navbar">
             <div class="layout-container">
-                <div class="layout-page">
+                <div class="layout-page" style="background-color:#1A1818;">
                     <nav class="layout-navbar navbar">
                         @include('layouts.nav-head')
                     </nav>
@@ -38,6 +38,26 @@
                         
                     </div>
                     <footer class="content-footer footer bg-footer-theme">
+                        <div class="footer-top" style="background-color:#34DD7A;" >
+                            <div class="footer-top container-xxl" >
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h3>MC Design</h3>
+                                        <p style="color:white;">Desarrollo de software a la medida, diseño de interfaces y marketing digital.</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3>Contáctanos</h3>
+                                        <p style="color:white;">contacto@mauriciocasado.com</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h3>Redes Sociales</h3>
+                                        <a href="https://www.facebook.com/mauriciocasado" class="btn btn-primary">Facebook</a>
+                                        <a href="https://www.instagram.com/mauriciocasado" class="btn btn-primary">Instagram</a>
+                                        <a href="https://www.linkedin.com/in/mauriciocasado" class="btn btn-primary">Linkedin</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                             <div class="footer-top container-xxl">
                                 &copy; Mauricio Casado <?php echo date("Y");?>
                             </div>
