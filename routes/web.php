@@ -7,6 +7,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/Design', function () {
+    return view('Design');
+})->name('Design');
+
+Route::get('/marketing', function () {
+    return view('marketing');
+})->name('Marketing');
+
+Route::get('/consultoria', function () {
+    return view('consultoria');
+})->name('Consultoria');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

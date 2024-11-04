@@ -47,7 +47,7 @@
                         <p class="card-text">Los servicios de diseño y desarrollo web ofrecen soluciones a medida que fusionan creatividad y tecnología. Nuestro enfoque se centra en el diseño de experiencias de usuario (UX) y la interfaz de usuario (UI) excepcionales para garantizar que cada visitante disfrute de una navegación intuitiva y atractiva. </p>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">Conoce más</a>
+                    <a href="{{route('Design')}}" class="btn btn-primary">Conoce más</a>
                 </div>
             </div>
 
@@ -58,7 +58,7 @@
                         <h3 class="titulo">Marketing digital</h3>
                         <p class="card-text">Los servicios de marketing digital se especializan en maximizar la visibilidad en línea de su negocio. Destacamos a través de la creación de campañas de posicionamiento en motores de búsqueda y redes sociales, asegurando que su marca alcance a su audiencia objetivo en los lugares adecuados. </p>
                     </div>
-                    <a href="#" class="btn btn-primary">Conoce más</a>
+                    <a href="{{route('Marketing')}}" class="btn btn-primary">Conoce más</a>
                 </div>
             </div>
 
@@ -66,11 +66,11 @@
                 <div class="card " >
                     <img class="card-img-top" src="assets/img/services/Consulting_MC.png" style="padding:2rem;">
                     <div class="card-body">
-                        <h3 class="titulo">Consultoria de negocios</h3>
-                        <p class="card-text">Los servicios de consultoría en digitalización de negocios se centran en guiar a las empresas en su transformación digital. Nuestra misión es ayudar a las organizaciones a adaptarse y aprovechar al máximo las tecnologías digitales emergentes. identificar oportunidades, implementar soluciones tecnológicas</p>
+                        <h3 class="titulo">Consultoria en innovación</h3>
+                        <p class="card-text">Los servicios de consultoría en innovacion de negocios se centran en guiar a las empresas en su transformación digital. Nuestra misión es ayudar a las organizaciones a adaptarse y aprovechar al máximo las tecnologías digitales emergentes.</p>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">Conoce más</a>
+                    <a href="{{route('Consultoria')}}" class="btn btn-primary">Conoce más</a>
                 </div>
             </div>
         </div>
