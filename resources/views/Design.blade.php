@@ -23,7 +23,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" style="margin-bottom: 1rem;">
                     <div class="card-body">
                         <div class="row">
                         <div class="col-lg-6">
@@ -47,6 +47,56 @@
                                 Impulsar el crecimiento de tu negocio.</p>
                                 <p>¿Listo para tener un sistema web que te lleve al siguiente nivel? ¡Contáctanos! 🚀</p>
                                 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="contacto" >
+                    <div class="col-lg-4">
+                        <h2 class="titulo">Pregunta por tu sitio o desarrollo.</h2>
+                        <div class="card">
+                            <div class="card-body">
+                                <p>¿Listo para llevar tu negocio al siguiente nivel? ¡Contáctame! 😊</p>
+                                <p>contacto@mauriciocasado.com 📧</p>
+                                <p>+52 221 351 1783 📞</p>
+                                <a><i>Facebook</i></a>
+                                <i>Instagram</i>
+                                <i>Linkedin</i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="container">
+                                    <h2 class="titulo">Contacto</h2>
+                                    
+                                    <form action="includes/correo_copy.php" method="POST">
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="Nombre" name="nombre">
+                                            <label for="nombre">Nombre</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="number" class="form-control" id="floatingInput" placeholder="Teléfono" name="telefono">
+                                            <label for="telefono">Telefono</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="Correo" name="correo">
+                                            <label for="correo">Correo</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="text" class="form-control" id="floatingInput" placeholder="asunto" name="Asunto">
+                                            <label for="asunto">Asunto</label>
+                                        </div>
+                                        <div class="form-floating mb-3">
+                                            <input type="textaarea" class="form-control" id="floatingInput"  name="mensaje">
+                                            <label for="mensaje">Mensaje</label>
+                                        </div>
+                                        <div class="g-recaptcha" data-sitekey="6LcWQIopAAAAAEB13RsKG4bWzY_Y8F7gaaWEvk1D" data-action="LOGIN"></div>
+                                            <input type="submit" class="btn btn-primary" id="floatingInput"  name="submit" value="enviar">
+                                        
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
